@@ -22,7 +22,7 @@ public class Chapter7
     #region No.1
     public int จงแสดงจำนวนคนที่มีสถานะโสด()
     {
-        return dataSets.Employees.Sum(s => s.Single ? 1 : 0);
+        return 0;
     }
 
     [Test]
@@ -35,7 +35,7 @@ public class Chapter7
     #region No.2
     public double จงแสดงค่าเฉลี่ยของตัวอักษรของชื่อพนักงาน()
     {
-        return dataSets.Employees.Average(a => a.Name.Length);
+        return 0;
     }
 
     [Test]
@@ -48,7 +48,7 @@ public class Chapter7
     #region No.3
     public double จงหาว่าชื่อคนที่ยาวที่สุดกี่ตัวอักษร()
     {
-        return dataSets.Employees.Max(a => a.Name.Length);
+        return 0;
     }
 
     [Test]
@@ -61,7 +61,7 @@ public class Chapter7
     #region No.4
     public double จงหาว่าชื่อคนที่สั้นที่สุดกี่ตัวอักษร()
     {
-        return dataSets.Employees.Min(a => a.Name.Length);
+        return 0;
     }
 
     [Test]

@@ -22,7 +22,7 @@ public class Chapter6
     #region No.1
     public List<IGrouping<bool, Employee>> จงGroupข้อมูลสถานะ()
     {
-        return dataSets.Employees.GroupBy(g => g.Single).ToList();
+        return new();
     }
 
     [Test]

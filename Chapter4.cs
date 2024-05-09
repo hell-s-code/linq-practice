@@ -22,7 +22,7 @@ public class Chapter4
     #region No.1
     public List<Employee> จงเรียงลำดับชื่อพนักงานจากน้อยไปมาก()
     {
-        return dataSets.Employees.OrderBy(o => o.Name).ToList();
+        return new();
     }
 
     [Test]
@@ -35,7 +35,7 @@ public class Chapter4
     #region No.2
     public List<Employee> จงเรียงลำดับวันเกิดพนักงานจากมากไปน้อย()
     {
-        return dataSets.Employees.OrderByDescending(o => o.Birthday).ToList();
+        return new();
     }
 
     [Test]

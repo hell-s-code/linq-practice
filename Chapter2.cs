@@ -22,7 +22,7 @@ public class Chapter2
     #region No.1
     public List<string> จงเติมคำนำหน้าว่านายถ้าเป็นผู้ชายและเติมคำว่านางสาวหากเป็นผู้หญิงและแสดงชื่อที่ถูกแปลง()
     {
-        return dataSets.Employees.Select(s => s.Gender == Gender.Man ? $"นาย {s.Name}" : $"นางสาว {s.Name}").ToList();
+        return new();
     }
 
     [Test]
@@ -35,7 +35,7 @@ public class Chapter2
     #region No.2
     public List<string> จงแสดงคำว่าโสดหากมีสถานะว่าโสดและแสดงคำว่าไม่โสดหากสถานะไม่โสด()
     {
-        return dataSets.Employees.Select(s => s.Single ? "โสด" : $"ไม่โสด").ToList();
+        return new();
     }
 
     [Test]
@@ -48,7 +48,7 @@ public class Chapter2
     #region No.3
     public List<string> จงแสดงรหัสพนักงานและชื่อ()
     {
-        return dataSets.Employees.Select(s => s.EmployeeCode + s.Name).ToList();
+        return new();
     }
 
     [Test]

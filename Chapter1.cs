@@ -23,7 +23,7 @@ public class Chapter1
     #region No.1
     public List<Employee> จงหาข้อมูลพนักงานจากรหัสพนักงาน61025()
     {
-        return dataSets.Employees.Where(w => w.EmployeeCode == "61025").ToList();
+        return new();
     }
 
     [Test]
@@ -36,7 +36,7 @@ public class Chapter1
     #region No.2
     public List<Employee> จงหาข้อมูลพนักงานจากที่มีตัวTอยู่ในชื่อ()
     {
-        return dataSets.Employees.Where(w => w.Name.Contains("T")).ToList();
+        return new();
     }
 
     [Test]
@@ -49,7 +49,7 @@ public class Chapter1
     #region No.3
     public List<Employee> จงหาข้อมูลพนักงานที่ไม่มีวันเกิด()
     {
-        return dataSets.Employees.Where(w => !w.Birthday.HasValue).ToList();
+        return new();
     }
 
     [Test]
@@ -62,7 +62,7 @@ public class Chapter1
     #region No.4
     public List<Employee> จงหาข้อมูลพนักงานที่มีสถานะโสด()
     {
-        return dataSets.Employees.Where(w => w.Single).ToList();
+        return dataSets.Employees.ToList();
     }
 
     [Test]
@@ -75,7 +75,7 @@ public class Chapter1
     #region No.5
     public List<Employee> จงหาข้อมูลพนักงานที่มีชื่อขึ้นต้นด้วยตัวNและมีสถานะโสด()
     {
-        return dataSets.Employees.Where(w => w.Single && w.Name.StartsWith("N")).ToList();
+        return new();
     }
 
     [Test]

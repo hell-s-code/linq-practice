@@ -22,7 +22,7 @@ public class Chapter5
     #region No.1
     public bool จงตรวจสอบว่าข้อมูลEmployeeมีวันเกิดทุกคนไหม()
     {
-        return dataSets.Employees.All(o => o.Birthday.HasValue);
+        return true;
     }
 
     [Test]
@@ -35,7 +35,7 @@ public class Chapter5
     #region No.2
     public bool จงตรวจสอบว่าEmployeeมีคนที่โสดบ้างไหม()
     {
-        return dataSets.Employees.Any(o => o.Single);
+        return false;
     }
 
     [Test]

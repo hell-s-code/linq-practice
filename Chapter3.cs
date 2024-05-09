@@ -22,7 +22,7 @@ public class Chapter3
     #region No.1
     public Employee จงดึงข้อมูลEmployeeที่เป็นข้อมูลแรกของDataSets()
     {
-        return dataSets.Employees.FirstOrDefault();
+        return new();
     }
 
     [Test]
@@ -35,7 +35,7 @@ public class Chapter3
     #region No.2
     public Employee จงดึงข้อมูลEmployeeที่เป็นข้อมูลสุดท้ายของDataSets()
     {
-        return dataSets.Employees.LastOrDefault();
+        return new();
     }
 
     [Test]
