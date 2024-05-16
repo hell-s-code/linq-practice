@@ -26,7 +26,7 @@ public class Chapter5
     }
 
     [Test]
-    public void จงตรวจสอบว่าข้อมูลEmployeeมีวันเกิดทุกคนไหมTest()
+    public void Test1()
     {
         Assert.That(จงตรวจสอบว่าข้อมูลEmployeeมีวันเกิดทุกคนไหม(), Is.EqualTo(false));
     }
@@ -39,7 +39,7 @@ public class Chapter5
     }
 
     [Test]
-    public void จงตรวจสอบว่าEmployeeมีคนที่โสดบ้างไหมTest()
+    public void Test2()
     {
         Assert.That(จงตรวจสอบว่าEmployeeมีคนที่โสดบ้างไหม(), Is.EqualTo(true));
     }

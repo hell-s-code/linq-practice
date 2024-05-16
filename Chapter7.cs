@@ -26,7 +26,7 @@ public class Chapter7
     }
 
     [Test]
-    public void จงแสดงจำนวนคนที่มีสถานะโสดTest()
+    public void Test1()
     {
         Assert.That(จงแสดงจำนวนคนที่มีสถานะโสด(), Is.EqualTo(5));
     }
@@ -39,7 +39,7 @@ public class Chapter7
     }
 
     [Test]
-    public void จงแสดงค่าเฉลี่ยของตัวอักษรของชื่อพนักงานTest()
+    public void Test2()
     {
         Assert.That(จงแสดงค่าเฉลี่ยของตัวอักษรของชื่อพนักงาน(), Is.EqualTo((34d/13d)));
     }
@@ -52,7 +52,7 @@ public class Chapter7
     }
 
     [Test]
-    public void จงหาว่าชื่อคนที่ยาวที่สุดกี่ตัวอักษรTest()
+    public void Test3()
     {
         Assert.That(จงหาว่าชื่อคนที่ยาวที่สุดกี่ตัวอักษร(), Is.EqualTo(4d));
     }
@@ -65,7 +65,7 @@ public class Chapter7
     }
 
     [Test]
-    public void จงหาว่าชื่อคนที่สั้นที่สุดกี่ตัวอักษรTest()
+    public void Test4()
     {
         Assert.That(จงหาว่าชื่อคนที่สั้นที่สุดกี่ตัวอักษร(), Is.EqualTo(1d));
     }

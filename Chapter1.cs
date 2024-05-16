@@ -27,7 +27,7 @@ public class Chapter1
     }
 
     [Test]
-    public void จงหาข้อมูลพนักงานจากรหัสพนักงาน61025Test()
+    public void Test1()
     {
         Assert.That(จงหาข้อมูลพนักงานจากรหัสพนักงาน61025(), Is.EqualTo(dataSets.Chapter1Result1));
     }
@@ -40,7 +40,7 @@ public class Chapter1
     }
 
     [Test]
-    public void จงหาข้อมูลพนักงานจากที่มีตัวTอยู่ในชื่อTest()
+    public void Test2()
     {
         Assert.That(จงหาข้อมูลพนักงานจากที่มีตัวTอยู่ในชื่อ(), Is.EqualTo(dataSets.Chapter1Result2));
     }
@@ -53,7 +53,7 @@ public class Chapter1
     }
 
     [Test]
-    public void จงหาข้อมูลพนักงานที่ไม่มีวันเกิดTest()
+    public void Test3()
     {
         Assert.That(จงหาข้อมูลพนักงานที่ไม่มีวันเกิด(), Is.EqualTo(dataSets.Chapter1Result3));
     }
@@ -66,7 +66,7 @@ public class Chapter1
     }
 
     [Test]
-    public void จงหาข้อมูลพนักงานที่มีสถานะโสดTest()
+    public void Tets4()
     {
         Assert.That(จงหาข้อมูลพนักงานที่มีสถานะโสด(), Is.EqualTo(dataSets.Chapter1Result4));
     }
@@ -79,7 +79,7 @@ public class Chapter1
     }
 
     [Test]
-    public void จงหาข้อมูลพนักงานที่มีชื่อขึ้นต้นด้วยตัวNและมีสถานะโสดTest()
+    public void Test5()
     {
         Assert.That(จงหาข้อมูลพนักงานที่มีชื่อขึ้นต้นด้วยตัวNและมีสถานะโสด(), Is.EqualTo(dataSets.Chapter1Result5));
     }

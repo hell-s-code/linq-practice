@@ -26,7 +26,7 @@ public class Chapter4
     }
 
     [Test]
-    public void จงเรียงลำดับชื่อพนักงานจากน้อยไปมากTest()
+    public void Test1()
     {
         Assert.That(จงเรียงลำดับชื่อพนักงานจากน้อยไปมาก(), Is.EqualTo(dataSets.Chapter4Result1));
     }
@@ -39,7 +39,7 @@ public class Chapter4
     }
 
     [Test]
-    public void จงเรียงลำดับวันเกิดพนักงานจากมากไปน้อยTest()
+    public void Test2()
     {
         Assert.That(จงเรียงลำดับวันเกิดพนักงานจากมากไปน้อย(), Is.EqualTo(dataSets.Chapter4Result2));
     }

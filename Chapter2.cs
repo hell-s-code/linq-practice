@@ -26,7 +26,7 @@ public class Chapter2
     }
 
     [Test]
-    public void จงเติมคำนำหน้าว่านายถ้าเป็นผู้ชายและเติมคำว่านางสาวหากเป็นผู้หญิงและแสดงชื่อที่ถูกแปลงTest()
+    public void Test1()
     {
         Assert.That(จงเติมคำนำหน้าว่านายถ้าเป็นผู้ชายและเติมคำว่านางสาวหากเป็นผู้หญิงและแสดงชื่อที่ถูกแปลง(), Is.EqualTo(dataSets.Chapter2Result1));
     }
@@ -39,7 +39,7 @@ public class Chapter2
     }
 
     [Test]
-    public void จงแสดงคำว่าโสดหากมีสถานะว่าโสดและแสดงคำว่าไม่โสดหากสถานะไม่โสดTest()
+    public void Test2()
     {
         Assert.That(จงแสดงคำว่าโสดหากมีสถานะว่าโสดและแสดงคำว่าไม่โสดหากสถานะไม่โสด(), Is.EqualTo(dataSets.Chapter2Result2));
     }
@@ -52,7 +52,7 @@ public class Chapter2
     }
 
     [Test]
-    public void จงแสดงรหัสพนักงานและชื่อTest()
+    public void Test3()
     {
         Assert.That(จงแสดงรหัสพนักงานและชื่อ(), Is.EqualTo(dataSets.Chapter2Result3));
     }

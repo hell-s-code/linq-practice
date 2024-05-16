@@ -26,7 +26,7 @@ public class Chapter3
     }
 
     [Test]
-    public void จงดึงข้อมูลEmployeeที่เป็นข้อมูลแรกของDataSetsTest()
+    public void Test1()
     {
         Assert.That(จงดึงข้อมูลEmployeeที่เป็นข้อมูลแรกของDataSets(), Is.EqualTo(dataSets.Chapter3Result1));
     }
@@ -39,7 +39,7 @@ public class Chapter3
     }
 
     [Test]
-    public void จงดึงข้อมูลEmployeeที่เป็นข้อมูลสุดท้ายของDataSetsTest()
+    public void Test2()
     {
         Assert.That(จงดึงข้อมูลEmployeeที่เป็นข้อมูลสุดท้ายของDataSets(), Is.EqualTo(dataSets.Chapter3Result2));
     }

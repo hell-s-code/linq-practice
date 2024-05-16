@@ -16,19 +16,19 @@ public class Chapter6
     /*** 2. Name: string           
     /*** 3. Birthday?: Datetime
     /*** 4. Gender: string Man, Women, LGBT
-    /*** 5. Single: bool true = โสด
+    /*** 5. Single: bool true = โสด // สถานะภาพ
     /********************************************/
 
     #region No.1
-    public List<IGrouping<bool, Employee>> จงGroupข้อมูลสถานะ()
+    public List<IGrouping<bool, Employee>> จงGroupข้อมูลสถานะภาพ()
     {
         return new();
     }
 
     [Test]
-    public void จงGroupข้อมูลสถานะTest()
+    public void Test()
     {
-        Assert.That(จงGroupข้อมูลสถานะ(), Is.EqualTo(dataSets.Chapter6Result1));
+        Assert.That(จงGroupข้อมูลสถานะภาพ(), Is.EqualTo(dataSets.Chapter6Result1));
     }
     #endregion
 }
